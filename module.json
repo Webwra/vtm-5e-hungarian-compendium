@@ -69,7 +69,7 @@
     },
     {
       "name": "elonyok-es-hatranyok",
-      "label": "Eloőyök és hátrányok",
+      "label": "Előnyök és hátrányok",
       "path": "packs/elonyok-es-hatranyok",
       "type": "Item",
       "system": "vtm5e",
