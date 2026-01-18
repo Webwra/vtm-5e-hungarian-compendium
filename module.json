@@ -4,9 +4,14 @@
 	"version": "1.0.0",
 	"compatibility": {
 		"minimum": "13",
-		"verified": "13",
-		"maximum": "13"
+		"verified": "13"
 	},
+	"authors": [
+		{
+			"name": "Webwra",
+			"discord": "webwra"
+		}
+	],
 	"relationships": {
 		"systems": [
 			{
@@ -73,6 +78,8 @@
 			}
 		}
 	],
-	"description": "",
-	"flags": {}
+	"url":"https://github.com/Webwra/vtm-5e-hungarian-compendium",
+	"download": "https://github.com/Webwra/vtm-5e-hungarian-compendium/releases/download/1.0.0/module.zip",
+	"manifest": "https://github.com/Webwra/vtm-5e-hungarian-compendium/releases/download/1.0.0/module.json",
+	"description": "Hungarian Compendium for Vampire the Masquerade V5"
 }
