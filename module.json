@@ -1,85 +1,87 @@
 {
-	"id": "vtm-5e-hungarian-compendium",
-	"title": "Vampire the Masquerade 5e Hungarian Compendium",
-	"version": "1.0.0",
-	"compatibility": {
-		"minimum": "13",
-		"verified": "13"
-	},
-	"authors": [
-		{
-			"name": "Webwra",
-			"discord": "webwra"
-		}
-	],
-	"relationships": {
-		"systems": [
-			{
-				"id": "vtm5e",
-				"type": "system",
-				"compatibility": {}
-			}
-		]
-	},
-	 "packs": [
-		{
-			"name": "klanok",
-			"label": "Klánok",
-			"path": "packs/klanok",
-			"type": "Item",
-			"system": "wod5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		},
-		{
-			"name": "diszciplinak",
-			"label": "Diszciplinák",
-			"path": "packs/diszciplinak",
-			"type": "Item",
-			"system": "wod5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		},
-		{
-			"name": "verpotencial",
-			"label": "Vérpotenciál",
-			"path": "packs/verpotencial",
-			"type": "Item",
-			"system": "wod5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		},
-		{
-			"name": "ragadozoi-stilusok",
-			"label": "Ragadozói stílusok",
-			"path": "packs/ragadozoi-stilusok",
-			"type": "Item",
-			"system": "wod5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		},
-		{
-			"name": "elonyok-es-hatranyok",
-			"label": "Eloőyök és hátrányok",
-			"path": "packs/elonyok-es-hatranyok",
-			"type": "Item",
-			"system": "wod5e",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		}
-	],
-	"url":"https://github.com/Webwra/vtm-5e-hungarian-compendium",
-	"download": "https://github.com/Webwra/vtm-5e-hungarian-compendium/releases/download/1.0.0/module.zip",
-	"manifest": "https://github.com/Webwra/vtm-5e-hungarian-compendium/releases/download/1.0.0/module.json",
-	"description": "Hungarian Compendium for Vampire the Masquerade V5"
+  "id": "vtm-5e-hungarian-compendium",
+  "title": "Vampire the Masquerade 5e Hungarian Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Webwra",
+      "discord": "webwra",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "vtm5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "klanok",
+      "label": "Klánok",
+      "path": "packs/klanok",
+      "type": "Item",
+      "system": "vtm5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "diszciplinak",
+      "label": "Diszciplinák",
+      "path": "packs/diszciplinak",
+      "type": "Item",
+      "system": "vtm5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "verpotencial",
+      "label": "Vérpotenciál",
+      "path": "packs/verpotencial",
+      "type": "Item",
+      "system": "vtm5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ragadozoi-stilusok",
+      "label": "Ragadozói stílusok",
+      "path": "packs/ragadozoi-stilusok",
+      "type": "Item",
+      "system": "vtm5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "elonyok-es-hatranyok",
+      "label": "Eloőyök és hátrányok",
+      "path": "packs/elonyok-es-hatranyok",
+      "type": "Item",
+      "system": "vtm5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/Webwra/vtm-5e-hungarian-compendium",
+  "download": "https://github.com/Webwra/vtm-5e-hungarian-compendium/releases/download/1.0.0/module.zip",
+  "manifest": "https://github.com/Webwra/vtm-5e-hungarian-compendium/releases/download/1.0.0/module.json",
+  "description": "<p>Hungarian Compendium for Vampire the Masquerade V5</p>",
+  "flags": {}
 }
